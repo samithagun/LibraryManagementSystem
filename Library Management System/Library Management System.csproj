@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FD9061A5-0656-4D50-9DA7-D07D4FAFE224}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Library_Management_System</RootNamespace>
+    <AssemblyName>Library Management System</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmAuthor_Registration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAuthor_Registration.Designer.cs">
+      <DependentUpon>frmAuthor_Registration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBook_Issue.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBook_Issue.Designer.cs">
+      <DependentUpon>frmBook_Issue.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBook_Return.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBook_Return.Designer.cs">
+      <DependentUpon>frmBook_Return.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCategory_Registration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCategory_Registration.Designer.cs">
+      <DependentUpon>frmCategory_Registration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBook_Registration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBook_Registration.Designer.cs">
+      <DependentUpon>frmBook_Registration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain_Form.Designer.cs">
+      <DependentUpon>frmMain_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMember_Registration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMember_Registration.Designer.cs">
+      <DependentUpon>frmMember_Registration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPublisher_Registration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPublisher_Registration.Designer.cs">
+      <DependentUpon>frmPublisher_Registration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSearch.Designer.cs">
+      <DependentUpon>frmSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmUser_Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUser_Login.Designer.cs">
+      <DependentUpon>frmUser_Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="User Account.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User Account.Designer.cs">
+      <DependentUpon>User Account.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="frmAuthor_Registration.resx">
+      <DependentUpon>frmAuthor_Registration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBook_Issue.resx">
+      <DependentUpon>frmBook_Issue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBook_Return.resx">
+      <DependentUpon>frmBook_Return.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCategory_Registration.resx">
+      <DependentUpon>frmCategory_Registration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBook_Registration.resx">
+      <DependentUpon>frmBook_Registration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain_Form.resx">
+      <DependentUpon>frmMain_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMember_Registration.resx">
+      <DependentUpon>frmMember_Registration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPublisher_Registration.resx">
+      <DependentUpon>frmPublisher_Registration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSearch.resx">
+      <DependentUpon>frmSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUser_Login.resx">
+      <DependentUpon>frmUser_Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="User Account.resx">
+      <DependentUpon>User Account.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

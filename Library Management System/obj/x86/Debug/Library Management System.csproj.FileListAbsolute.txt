@@ -1,0 +1,17 @@
+E:\Library Management System\Library Management System\Library Management System\bin\Debug\Library Management System.exe
+E:\Library Management System\Library Management System\Library Management System\bin\Debug\Library Management System.pdb
+E:\Library Management System\Library Management System\Library Management System\obj\x86\Debug\Library_Management_System.Properties.Resources.resources
+E:\Library Management System\Library Management System\Library Management System\obj\x86\Debug\Library Management System.csproj.GenerateResource.Cache
+E:\Library Management System\Library Management System\Library Management System\obj\x86\Debug\Library Management System.exe
+E:\Library Management System\Library Management System\Library Management System\obj\x86\Debug\Library Management System.pdb
+E:\Library Management System\Library Management System\Library Management System\obj\x86\Debug\Library Management System.csprojResolveAssemblyReference.cache
+E:\Library Management System\Library Management System\Library Management System\obj\x86\Debug\Library_Management_System.frmUserLogin.resources
+E:\Library Management System\Library Management System\Library Management System\obj\x86\Debug\Library_Management_System.frmBook_Registration.resources
+E:\Library Management System\Library Management System\Library Management System\obj\x86\Debug\Library_Management_System.frmCategory_Registration.resources
+E:\Library Management System\Library Management System\Library Management System\obj\x86\Debug\Library_Management_System.frmPublisher_Registration.resources
+E:\Library Management System\Library Management System\Library Management System\obj\x86\Debug\Library_Management_System.frmBook_Return.resources
+E:\Library Management System\Library Management System\Library Management System\obj\x86\Debug\Library_Management_System.frmMain_Form.resources
+E:\Library Management System\Library Management System\Library Management System\obj\x86\Debug\Library_Management_System.frmMember_Registration.resources
+E:\Library Management System\Library Management System\Library Management System\obj\x86\Debug\Library_Management_System.frmSearch.resources
+E:\Library Management System\Library Management System\Library Management System\obj\x86\Debug\Library_Management_System.frmBook_Issue.resources
+E:\Library Management System\Library Management System\Library Management System\obj\x86\Debug\Library_Management_System.User_Account.resources
