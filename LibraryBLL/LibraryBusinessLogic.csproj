@@ -40,8 +40,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Entities\Category.cs" />
+    <Compile Include="LibraryFacade.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LibraryBOL\LibraryBusinessObjects.csproj">
+      <Project>{156C2250-CFA1-49C1-82BB-72A6F7438EC1}</Project>
+      <Name>LibraryBusinessObjects</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LibraryDAL\LibraryDataAccess.csproj">
+      <Project>{09EC3E76-FCAE-421C-B3DF-0EE8BD950582}</Project>
+      <Name>LibraryDataAccess</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -9,7 +9,7 @@ namespace LibraryDAL
 {
     public class SQLDataConnection
     {
-        public static string constr = "Data Source=ZLK114\\SQL2012; User ID=sa; Password=sa@123; Initial Catalog=Library";
+        public static string Constr = "Data Source=ZLK114\\SQL2012; User ID=sa; Password=sa@123; Initial Catalog=Library";
         public static SqlConnection con;
         public static SqlCommand com;
 
@@ -29,7 +29,7 @@ namespace LibraryDAL
 
         public static SqlConnection OpenConnection()
         {
-            con = new SqlConnection(constr);
+            con = new SqlConnection(Constr);
             con.Open();
             return con;
         }

@@ -3,3 +3,12 @@ D:\Systems\LibraryManagementSystem\LibraryBLL\bin\Debug\LibraryBLL.pdb
 D:\Systems\LibraryManagementSystem\LibraryBLL\obj\Debug\LibraryBLL.dll
 D:\Systems\LibraryManagementSystem\LibraryBLL\obj\Debug\LibraryBLL.pdb
 D:\Systems\LibraryManagementSystem\LibraryBLL\obj\Debug\LibraryBusinessLogic.csprojResolveAssemblyReference.cache
+E:\Projects\LibraryManagementSystem\LibraryBLL\obj\Debug\LibraryBusinessLogic.csprojResolveAssemblyReference.cache
+E:\Projects\LibraryManagementSystem\LibraryBLL\obj\Debug\LibraryBLL.dll
+E:\Projects\LibraryManagementSystem\LibraryBLL\bin\Debug\LibraryBLL.dll
+E:\Projects\LibraryManagementSystem\LibraryBLL\bin\Debug\LibraryBLL.pdb
+E:\Projects\LibraryManagementSystem\LibraryBLL\bin\Debug\LibraryBOL.dll
+E:\Projects\LibraryManagementSystem\LibraryBLL\bin\Debug\LibraryDAL.dll
+E:\Projects\LibraryManagementSystem\LibraryBLL\bin\Debug\LibraryBOL.pdb
+E:\Projects\LibraryManagementSystem\LibraryBLL\bin\Debug\LibraryDAL.pdb
+E:\Projects\LibraryManagementSystem\LibraryBLL\obj\Debug\LibraryBLL.pdb

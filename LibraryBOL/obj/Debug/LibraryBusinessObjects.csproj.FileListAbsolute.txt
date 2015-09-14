@@ -1,0 +1,4 @@
+E:\Projects\LibraryManagementSystem\LibraryBOL\bin\Debug\LibraryBOL.dll
+E:\Projects\LibraryManagementSystem\LibraryBOL\bin\Debug\LibraryBOL.pdb
+E:\Projects\LibraryManagementSystem\LibraryBOL\obj\Debug\LibraryBOL.dll
+E:\Projects\LibraryManagementSystem\LibraryBOL\obj\Debug\LibraryBOL.pdb

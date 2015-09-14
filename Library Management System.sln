@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryBusinessLogic", "Lib
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryDataAccess", "LibraryDAL\LibraryDataAccess.csproj", "{09EC3E76-FCAE-421C-B3DF-0EE8BD950582}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryBusinessObjects", "LibraryBOL\LibraryBusinessObjects.csproj", "{156C2250-CFA1-49C1-82BB-72A6F7438EC1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +49,16 @@ Global
 		{09EC3E76-FCAE-421C-B3DF-0EE8BD950582}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{09EC3E76-FCAE-421C-B3DF-0EE8BD950582}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{09EC3E76-FCAE-421C-B3DF-0EE8BD950582}.Release|x86.ActiveCfg = Release|Any CPU
+		{156C2250-CFA1-49C1-82BB-72A6F7438EC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{156C2250-CFA1-49C1-82BB-72A6F7438EC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{156C2250-CFA1-49C1-82BB-72A6F7438EC1}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{156C2250-CFA1-49C1-82BB-72A6F7438EC1}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{156C2250-CFA1-49C1-82BB-72A6F7438EC1}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{156C2250-CFA1-49C1-82BB-72A6F7438EC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{156C2250-CFA1-49C1-82BB-72A6F7438EC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{156C2250-CFA1-49C1-82BB-72A6F7438EC1}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{156C2250-CFA1-49C1-82BB-72A6F7438EC1}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{156C2250-CFA1-49C1-82BB-72A6F7438EC1}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

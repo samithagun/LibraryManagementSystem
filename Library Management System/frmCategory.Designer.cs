@@ -28,198 +28,153 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmCategory));
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
-            this.tsbNew = new System.Windows.Forms.ToolStripButton();
-            this.tsbSave = new System.Windows.Forms.ToolStripButton();
-            this.tsbEdit = new System.Windows.Forms.ToolStripButton();
-            this.grpCategory = new System.Windows.Forms.GroupBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.txtFindCat = new System.Windows.Forms.TextBox();
-            this.txtFindCode = new System.Windows.Forms.TextBox();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.btnViewCategory = new System.Windows.Forms.Button();
-            this.txtCategory = new System.Windows.Forms.TextBox();
-            this.lblCategory = new System.Windows.Forms.Label();
-            this.lblCategoryCode = new System.Windows.Forms.Label();
-            this.txtCatCode = new System.Windows.Forms.TextBox();
-            this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
-            this.toolStrip1.SuspendLayout();
-            this.grpCategory.SuspendLayout();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.txtCatId = new System.Windows.Forms.TextBox();
+            this.txtCatDesc = new System.Windows.Forms.TextBox();
+            this.chkInactive = new System.Windows.Forms.CheckBox();
+            this.btnNew = new System.Windows.Forms.Button();
+            this.btnFind = new System.Windows.Forms.Button();
+            this.btnClose = new System.Windows.Forms.Button();
+            this.btnSave = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // toolStrip1
             // 
-            this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.tsbNew,
-            this.tsbSave,
-            this.tsbEdit,
-            this.toolStripButton1});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(339, 25);
+            this.toolStrip1.Size = new System.Drawing.Size(384, 25);
             this.toolStrip1.TabIndex = 1;
             this.toolStrip1.Text = "toolStrip1";
             // 
-            // tsbNew
-            // 
-            this.tsbNew.Image = ((System.Drawing.Image)(resources.GetObject("tsbNew.Image")));
-            this.tsbNew.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.tsbNew.Name = "tsbNew";
-            this.tsbNew.Size = new System.Drawing.Size(54, 22);
-            this.tsbNew.Text = "Clear";
-            // 
-            // tsbSave
-            // 
-            this.tsbSave.Image = ((System.Drawing.Image)(resources.GetObject("tsbSave.Image")));
-            this.tsbSave.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.tsbSave.Name = "tsbSave";
-            this.tsbSave.Size = new System.Drawing.Size(51, 22);
-            this.tsbSave.Text = "Save";
-            // 
-            // tsbEdit
-            // 
-            this.tsbEdit.Image = ((System.Drawing.Image)(resources.GetObject("tsbEdit.Image")));
-            this.tsbEdit.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.tsbEdit.Name = "tsbEdit";
-            this.tsbEdit.Size = new System.Drawing.Size(47, 22);
-            this.tsbEdit.Text = "Edit";
-            // 
-            // grpCategory
-            // 
-            this.grpCategory.Controls.Add(this.panel1);
-            this.grpCategory.Controls.Add(this.btnViewCategory);
-            this.grpCategory.Controls.Add(this.txtCategory);
-            this.grpCategory.Controls.Add(this.lblCategory);
-            this.grpCategory.Controls.Add(this.lblCategoryCode);
-            this.grpCategory.Controls.Add(this.txtCatCode);
-            this.grpCategory.Location = new System.Drawing.Point(8, 42);
-            this.grpCategory.Name = "grpCategory";
-            this.grpCategory.Size = new System.Drawing.Size(314, 149);
-            this.grpCategory.TabIndex = 2;
-            this.grpCategory.TabStop = false;
-            // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.txtFindCat);
-            this.panel1.Controls.Add(this.txtFindCode);
-            this.panel1.Controls.Add(this.dataGridView1);
-            this.panel1.Location = new System.Drawing.Point(104, 17);
+            this.panel1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Controls.Add(this.btnClose);
+            this.panel1.Controls.Add(this.btnSave);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel1.Location = new System.Drawing.Point(0, 131);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(204, 126);
-            this.panel1.TabIndex = 2;
-            this.panel1.Visible = false;
+            this.panel1.Size = new System.Drawing.Size(384, 30);
+            this.panel1.TabIndex = 4;
             // 
-            // txtFindCat
+            // label1
             // 
-            this.txtFindCat.Location = new System.Drawing.Point(60, 1);
-            this.txtFindCat.Name = "txtFindCat";
-            this.txtFindCat.Size = new System.Drawing.Size(141, 20);
-            this.txtFindCat.TabIndex = 2;
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(34, 31);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(70, 15);
+            this.label1.TabIndex = 5;
+            this.label1.Text = "Category ID";
             // 
-            // txtFindCode
+            // label2
             // 
-            this.txtFindCode.Location = new System.Drawing.Point(3, 2);
-            this.txtFindCode.Name = "txtFindCode";
-            this.txtFindCode.Size = new System.Drawing.Size(56, 20);
-            this.txtFindCode.TabIndex = 1;
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(34, 67);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(69, 15);
+            this.label2.TabIndex = 6;
+            this.label2.Text = "Description";
             // 
-            // dataGridView1
+            // txtCatId
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.ColumnHeadersVisible = false;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Column1,
-            this.Column2});
-            this.dataGridView1.Location = new System.Drawing.Point(3, 22);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersVisible = false;
-            this.dataGridView1.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.dataGridView1.Size = new System.Drawing.Size(197, 101);
-            this.dataGridView1.TabIndex = 0;
+            this.txtCatId.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCatId.Location = new System.Drawing.Point(110, 28);
+            this.txtCatId.Name = "txtCatId";
+            this.txtCatId.ReadOnly = true;
+            this.txtCatId.Size = new System.Drawing.Size(100, 21);
+            this.txtCatId.TabIndex = 7;
             // 
-            // Column1
+            // txtCatDesc
             // 
-            this.Column1.HeaderText = "Code";
-            this.Column1.Name = "Column1";
-            this.Column1.Width = 55;
+            this.txtCatDesc.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCatDesc.Location = new System.Drawing.Point(110, 64);
+            this.txtCatDesc.MaxLength = 100;
+            this.txtCatDesc.Name = "txtCatDesc";
+            this.txtCatDesc.Size = new System.Drawing.Size(262, 21);
+            this.txtCatDesc.TabIndex = 8;
             // 
-            // Column2
+            // chkInactive
             // 
-            this.Column2.HeaderText = "Category";
-            this.Column2.Name = "Column2";
-            this.Column2.Width = 140;
+            this.chkInactive.AutoSize = true;
+            this.chkInactive.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkInactive.Location = new System.Drawing.Point(110, 104);
+            this.chkInactive.Name = "chkInactive";
+            this.chkInactive.Size = new System.Drawing.Size(67, 19);
+            this.chkInactive.TabIndex = 11;
+            this.chkInactive.Text = "Inactive";
+            this.chkInactive.UseVisualStyleBackColor = true;
             // 
-            // btnViewCategory
+            // btnNew
             // 
-            this.btnViewCategory.Location = new System.Drawing.Point(89, 17);
-            this.btnViewCategory.Name = "btnViewCategory";
-            this.btnViewCategory.Size = new System.Drawing.Size(15, 20);
-            this.btnViewCategory.TabIndex = 2;
-            this.btnViewCategory.UseVisualStyleBackColor = true;
-            this.btnViewCategory.Click += new System.EventHandler(this.btnViewCategory_Click);
+            this.btnNew.Image = global::Library_Management_System.Properties.Resources.note;
+            this.btnNew.Location = new System.Drawing.Point(247, 27);
+            this.btnNew.Name = "btnNew";
+            this.btnNew.Size = new System.Drawing.Size(25, 22);
+            this.btnNew.TabIndex = 10;
+            this.btnNew.UseVisualStyleBackColor = true;
             // 
-            // txtCategory
+            // btnFind
             // 
-            this.txtCategory.Location = new System.Drawing.Point(104, 52);
-            this.txtCategory.Multiline = true;
-            this.txtCategory.Name = "txtCategory";
-            this.txtCategory.Size = new System.Drawing.Size(193, 74);
-            this.txtCategory.TabIndex = 2;
+            this.btnFind.Image = global::Library_Management_System.Properties.Resources.find;
+            this.btnFind.Location = new System.Drawing.Point(216, 27);
+            this.btnFind.Name = "btnFind";
+            this.btnFind.Size = new System.Drawing.Size(25, 22);
+            this.btnFind.TabIndex = 9;
+            this.btnFind.UseVisualStyleBackColor = true;
             // 
-            // lblCategory
+            // btnClose
             // 
-            this.lblCategory.AutoSize = true;
-            this.lblCategory.Location = new System.Drawing.Point(6, 59);
-            this.lblCategory.Name = "lblCategory";
-            this.lblCategory.Size = new System.Drawing.Size(49, 13);
-            this.lblCategory.TabIndex = 2;
-            this.lblCategory.Text = "Category";
+            this.btnClose.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnClose.Image = global::Library_Management_System.Properties.Resources.cross;
+            this.btnClose.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnClose.Location = new System.Drawing.Point(296, -1);
+            this.btnClose.Name = "btnClose";
+            this.btnClose.Size = new System.Drawing.Size(75, 30);
+            this.btnClose.TabIndex = 5;
+            this.btnClose.Text = "&Close";
+            this.btnClose.UseVisualStyleBackColor = true;
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
-            // lblCategoryCode
+            // btnSave
             // 
-            this.lblCategoryCode.AutoSize = true;
-            this.lblCategoryCode.Location = new System.Drawing.Point(6, 22);
-            this.lblCategoryCode.Name = "lblCategoryCode";
-            this.lblCategoryCode.Size = new System.Drawing.Size(77, 13);
-            this.lblCategoryCode.TabIndex = 2;
-            this.lblCategoryCode.Text = "Category Code";
+            this.btnSave.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSave.Image = global::Library_Management_System.Properties.Resources.disk;
+            this.btnSave.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSave.Location = new System.Drawing.Point(215, -1);
+            this.btnSave.Name = "btnSave";
+            this.btnSave.Size = new System.Drawing.Size(75, 30);
+            this.btnSave.TabIndex = 4;
+            this.btnSave.Text = "&Save";
+            this.btnSave.UseVisualStyleBackColor = true;
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
-            // txtCatCode
-            // 
-            this.txtCatCode.Location = new System.Drawing.Point(104, 18);
-            this.txtCatCode.Name = "txtCatCode";
-            this.txtCatCode.Size = new System.Drawing.Size(193, 20);
-            this.txtCatCode.TabIndex = 2;
-            // 
-            // toolStripButton1
-            // 
-            this.toolStripButton1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton1.Image")));
-            this.toolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton1.Name = "toolStripButton1";
-            this.toolStripButton1.Size = new System.Drawing.Size(60, 22);
-            this.toolStripButton1.Text = "Delete";
-            // 
-            // frmCategory_Registration
+            // frmCategory
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(339, 218);
-            this.Controls.Add(this.grpCategory);
+            this.ClientSize = new System.Drawing.Size(384, 161);
+            this.Controls.Add(this.chkInactive);
+            this.Controls.Add(this.btnNew);
+            this.Controls.Add(this.btnFind);
+            this.Controls.Add(this.txtCatDesc);
+            this.Controls.Add(this.txtCatId);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.toolStrip1);
-            this.Name = "frmCategory_Registration";
-            this.Text = "Category_Registration";
-            this.toolStrip1.ResumeLayout(false);
-            this.toolStrip1.PerformLayout();
-            this.grpCategory.ResumeLayout(false);
-            this.grpCategory.PerformLayout();
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.MaximizeBox = false;
+            this.Name = "frmCategory";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Category";
             this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -228,21 +183,15 @@
         #endregion
 
         private System.Windows.Forms.ToolStrip toolStrip1;
-        private System.Windows.Forms.ToolStripButton tsbNew;
-        private System.Windows.Forms.ToolStripButton tsbSave;
-        private System.Windows.Forms.ToolStripButton tsbEdit;
-        private System.Windows.Forms.GroupBox grpCategory;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.TextBox txtFindCat;
-        private System.Windows.Forms.TextBox txtFindCode;
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
-        private System.Windows.Forms.Button btnViewCategory;
-        private System.Windows.Forms.TextBox txtCategory;
-        private System.Windows.Forms.Label lblCategory;
-        private System.Windows.Forms.Label lblCategoryCode;
-        private System.Windows.Forms.TextBox txtCatCode;
-        private System.Windows.Forms.ToolStripButton toolStripButton1;
+        private System.Windows.Forms.Button btnClose;
+        private System.Windows.Forms.Button btnSave;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox txtCatId;
+        private System.Windows.Forms.TextBox txtCatDesc;
+        private System.Windows.Forms.Button btnFind;
+        private System.Windows.Forms.Button btnNew;
+        private System.Windows.Forms.CheckBox chkInactive;
     }
 }

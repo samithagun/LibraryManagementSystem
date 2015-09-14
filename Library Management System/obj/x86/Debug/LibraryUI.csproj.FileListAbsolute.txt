@@ -16,3 +16,27 @@ D:\Systems\LibraryManagementSystem\Library Management System\obj\x86\Debug\Libra
 D:\Systems\LibraryManagementSystem\Library Management System\obj\x86\Debug\Library Management System.exe
 D:\Systems\LibraryManagementSystem\Library Management System\obj\x86\Debug\Library Management System.pdb
 D:\Systems\LibraryManagementSystem\Library Management System\obj\x86\Debug\LibraryUI.csprojResolveAssemblyReference.cache
+E:\Projects\LibraryManagementSystem\Library Management System\obj\x86\Debug\Library Management System.exe
+E:\Projects\LibraryManagementSystem\Library Management System\obj\x86\Debug\Library Management System.pdb
+E:\Projects\LibraryManagementSystem\Library Management System\obj\x86\Debug\LibraryUI.csprojResolveAssemblyReference.cache
+E:\Projects\LibraryManagementSystem\Library Management System\obj\x86\Debug\Library_Management_System.frmAuthor.resources
+E:\Projects\LibraryManagementSystem\Library Management System\obj\x86\Debug\Library_Management_System.frmBookIssue.resources
+E:\Projects\LibraryManagementSystem\Library Management System\obj\x86\Debug\Library_Management_System.frmBookReturn.resources
+E:\Projects\LibraryManagementSystem\Library Management System\obj\x86\Debug\Library_Management_System.frmCategory.resources
+E:\Projects\LibraryManagementSystem\Library Management System\obj\x86\Debug\Library_Management_System.frmBook.resources
+E:\Projects\LibraryManagementSystem\Library Management System\obj\x86\Debug\Library_Management_System.frmMain.resources
+E:\Projects\LibraryManagementSystem\Library Management System\obj\x86\Debug\Library_Management_System.frmMember.resources
+E:\Projects\LibraryManagementSystem\Library Management System\obj\x86\Debug\Library_Management_System.frmPublisher.resources
+E:\Projects\LibraryManagementSystem\Library Management System\obj\x86\Debug\Library_Management_System.frmSearch.resources
+E:\Projects\LibraryManagementSystem\Library Management System\obj\x86\Debug\Library_Management_System.frmUserLogin.resources
+E:\Projects\LibraryManagementSystem\Library Management System\obj\x86\Debug\Library_Management_System.Properties.Resources.resources
+E:\Projects\LibraryManagementSystem\Library Management System\obj\x86\Debug\Library_Management_System.User_Account.resources
+E:\Projects\LibraryManagementSystem\Library Management System\obj\x86\Debug\LibraryUI.csproj.GenerateResource.Cache
+E:\Projects\LibraryManagementSystem\Library Management System\bin\Debug\Library Management System.exe
+E:\Projects\LibraryManagementSystem\Library Management System\bin\Debug\Library Management System.pdb
+E:\Projects\LibraryManagementSystem\Library Management System\bin\Debug\LibraryBLL.dll
+E:\Projects\LibraryManagementSystem\Library Management System\bin\Debug\LibraryBOL.dll
+E:\Projects\LibraryManagementSystem\Library Management System\bin\Debug\LibraryDAL.dll
+E:\Projects\LibraryManagementSystem\Library Management System\bin\Debug\LibraryBLL.pdb
+E:\Projects\LibraryManagementSystem\Library Management System\bin\Debug\LibraryBOL.pdb
+E:\Projects\LibraryManagementSystem\Library Management System\bin\Debug\LibraryDAL.pdb
