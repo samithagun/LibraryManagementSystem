@@ -1,0 +1,5 @@
+D:\Systems\LibraryManagementSystem\LibraryBLL\bin\Debug\LibraryBLL.dll
+D:\Systems\LibraryManagementSystem\LibraryBLL\bin\Debug\LibraryBLL.pdb
+D:\Systems\LibraryManagementSystem\LibraryBLL\obj\Debug\LibraryBLL.dll
+D:\Systems\LibraryManagementSystem\LibraryBLL\obj\Debug\LibraryBLL.pdb
+D:\Systems\LibraryManagementSystem\LibraryBLL\obj\Debug\LibraryBusinessLogic.csprojResolveAssemblyReference.cache

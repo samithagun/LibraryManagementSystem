@@ -15,7 +15,7 @@ namespace Library_Management_System
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmCategory_Registration());
+            Application.Run(new frmCategory());
         }
     }
 }

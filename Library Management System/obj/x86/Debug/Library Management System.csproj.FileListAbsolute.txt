@@ -15,3 +15,5 @@ E:\Library Management System\Library Management System\Library Management System
 E:\Library Management System\Library Management System\Library Management System\obj\x86\Debug\Library_Management_System.frmSearch.resources
 E:\Library Management System\Library Management System\Library Management System\obj\x86\Debug\Library_Management_System.frmBook_Issue.resources
 E:\Library Management System\Library Management System\Library Management System\obj\x86\Debug\Library_Management_System.User_Account.resources
+D:\Systems\LibraryManagementSystem\Library Management System\obj\x86\Debug\Library Management System.exe
+D:\Systems\LibraryManagementSystem\Library Management System\obj\x86\Debug\Library Management System.pdb

@@ -1,0 +1,4 @@
+D:\Systems\LibraryManagementSystem\LibraryDAL\bin\Debug\LibraryDAL.dll
+D:\Systems\LibraryManagementSystem\LibraryDAL\bin\Debug\LibraryDAL.pdb
+D:\Systems\LibraryManagementSystem\LibraryDAL\obj\Debug\LibraryDAL.dll
+D:\Systems\LibraryManagementSystem\LibraryDAL\obj\Debug\LibraryDAL.pdb
