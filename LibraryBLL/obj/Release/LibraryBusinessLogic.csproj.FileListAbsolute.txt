@@ -1,0 +1,9 @@
+E:\Projects\LibraryManagementSystem\LibraryBLL\bin\Release\LibraryBLL.dll
+E:\Projects\LibraryManagementSystem\LibraryBLL\bin\Release\LibraryBLL.pdb
+E:\Projects\LibraryManagementSystem\LibraryBLL\bin\Release\LibraryBOL.dll
+E:\Projects\LibraryManagementSystem\LibraryBLL\bin\Release\LibraryDAL.dll
+E:\Projects\LibraryManagementSystem\LibraryBLL\bin\Release\LibraryBOL.pdb
+E:\Projects\LibraryManagementSystem\LibraryBLL\bin\Release\LibraryDAL.pdb
+E:\Projects\LibraryManagementSystem\LibraryBLL\obj\Release\LibraryBusinessLogic.csprojResolveAssemblyReference.cache
+E:\Projects\LibraryManagementSystem\LibraryBLL\obj\Release\LibraryBLL.dll
+E:\Projects\LibraryManagementSystem\LibraryBLL\obj\Release\LibraryBLL.pdb

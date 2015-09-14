@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
@@ -9,6 +10,7 @@ namespace LibraryDAL
 {
     public class SQLDataConnection
     {
+
         public static string Constr = "Data Source=ZLK114\\SQL2012; User ID=sa; Password=sa@123; Initial Catalog=Library";
         public static SqlConnection con;
         public static SqlCommand com;

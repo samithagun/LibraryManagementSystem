@@ -1,0 +1,7 @@
+E:\Projects\LibraryManagementSystem\LibraryDAL\bin\Release\LibraryDAL.dll
+E:\Projects\LibraryManagementSystem\LibraryDAL\bin\Release\LibraryDAL.pdb
+E:\Projects\LibraryManagementSystem\LibraryDAL\bin\Release\LibraryBOL.dll
+E:\Projects\LibraryManagementSystem\LibraryDAL\bin\Release\LibraryBOL.pdb
+E:\Projects\LibraryManagementSystem\LibraryDAL\obj\Release\LibraryDataAccess.csprojResolveAssemblyReference.cache
+E:\Projects\LibraryManagementSystem\LibraryDAL\obj\Release\LibraryDAL.dll
+E:\Projects\LibraryManagementSystem\LibraryDAL\obj\Release\LibraryDAL.pdb

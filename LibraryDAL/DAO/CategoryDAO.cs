@@ -9,59 +9,91 @@ using LibraryBLL.Entities;
 
 namespace LibraryDAL.DAO
 {
-    public partial class CategoryDAO : SQLDataConnection
+    public class CategoryDAO : SQLDataConnection
     {
-        public bool Create(Category category)
+        public bool Save(Category category)
         {
-            try
+            const string sqlStatement =
+                "INSERT INTO dbo.category (Description, AddedDate, Inactive) " +
+                "VALUES(@description, @addeddate, @inactive); ";
+
+            //Connect to database.
+            con = OpenConnection();
+            com = new SqlCommand(sqlStatement, con);
+
+            //Set parameter values.
+            com.Parameters.AddWithValue("@description", category.Description);
+            com.Parameters.AddWithValue("@addeddate", category.AddedDate);
+            com.Parameters.AddWithValue("@inactive", category.Inactive);
+
+            using (TransactionScope scope = new TransactionScope())
             {
-                const string sqlStatement =
-                    "INSERT INTO dbo.category (Description, AddedDate, Inactive) " +
-                    "VALUES(@description, @addeddate, @inactive);  ";
-
-                // Connect to database.
-                con = SQLDataConnection.OpenConnection();
-                com = new SqlCommand(sqlStatement, con);
-
-                // Set parameter values.
-                com.Parameters.AddWithValue("@description", category.Description);
-                com.Parameters.AddWithValue("@addeddate", category.AddedDate);
-                com.Parameters.AddWithValue("@inactive", category.Inactive);
-
-                using (TransactionScope scope = new TransactionScope())
+                try
                 {
-                    try
-                    {
-                        com.ExecuteNonQuery();
-                        scope.Complete();
-                        return true;
-                    }
-                    catch (Exception)
-                    {
-                        scope.Dispose();
-                        throw;
-                    }                  
+                    com.ExecuteNonQuery();
+                    scope.Complete();
+                    return true;
+                }
+                catch (Exception)
+                {
+                    scope.Dispose();
+                    throw;
+                }
+                finally
+                {
+                    scope.Dispose();
                 }
             }
-            catch (Exception ex)
+        }
+
+        public bool Update(Category category)
+        {
+            const string sqlStatement =
+                "UPDATE dbo.category SET Description=@description, Inactive=@inactive " +
+                "WHERE CategoryId=@categoryid";
+
+            //Connect to database.
+            con = OpenConnection();
+            com = new SqlCommand(sqlStatement, con);
+
+            //Set parameter values.
+            com.Parameters.AddWithValue("@categoryid", category.CategoryId);
+            com.Parameters.AddWithValue("@description", category.Description);
+            com.Parameters.AddWithValue("@inactive", category.Inactive);
+
+            using (TransactionScope scope = new TransactionScope())
             {
-                throw ex;
+                try
+                {
+                    com.ExecuteNonQuery();
+                    scope.Complete();
+                    return true;
+                }
+                catch (Exception)
+                {
+                    scope.Dispose();
+                    throw;
+                }
+                finally
+                {
+                    scope.Dispose();
+                }
             }
         }
 
         public Category Select(int categoryId)
         {
             const string sqlStatement =
-                "SELECT Description, AddedDate, Inactive " +
+                "SELECT CategoryId, Description, AddedDate, Inactive " +
                 "FROM dbo.Category  " +
                 "WHERE CategoryId=@categoryId ";
 
-            Category category = null;
+            //Connect to database.
+            con = OpenConnection();
 
-            // Connect to database.
-            con = SQLDataConnection.OpenConnection();
+            //Create a new category.
+            Category category = new Category();
 
-            // SqlDataReader rdr = null;
             com = new SqlCommand(sqlStatement, con);
             com.Parameters.AddWithValue("@CategoryId", categoryId);
 
@@ -71,24 +103,23 @@ namespace LibraryDAL.DAO
                 {
                     if (dr.Read())
                     {
-                        // Create a new category.
-                        category = new Category();
-
-                        // Read values.
-                        category.Description = base.GetDataValue<string>(dr, "Description");
-                        category.AddedDate = base.GetDataValue<DateTime>(dr, "AddedDate");
-                        category.Inactive = base.GetDataValue<bool>(dr, "Inactive");
+                        category = new Category
+                        {
+                            CategoryId = GetDataValue<int>(dr, "CategoryId"),
+                            Description = GetDataValue<string>(dr, "Description"),
+                            AddedDate = GetDataValue<DateTime>(dr, "AddedDate"),
+                            Inactive = GetDataValue<bool>(dr, "Inactive")
+                        };
                     }
                 }
+
+                return category;
             }
 
             catch (Exception ex)
             {
                 throw ex;
             }
-
-            return category;
         }
     }
-
 }
